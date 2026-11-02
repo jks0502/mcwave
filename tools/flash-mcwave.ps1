@@ -12,7 +12,7 @@ $ErrorActionPreference='Stop'
 # esptool writes progress to stderr; success is judged from its logs instead.
 function Invoke-Esptool([string]$OutFile,[string[]]$Arguments){$ErrorActionPreference='Continue';& $esptool @Arguments *> $OutFile}
 $projectDir=(Resolve-Path (Join-Path $PSScriptRoot '..')).Path
-$esptool='C:\Users\27108\AppData\Local\Arduino15\packages\esp32\tools\esptool_py\5.3.0-cn\esptool.exe'
+$esptool="$env:LOCALAPPDATA\Arduino15\packages\esp32\tools\esptool_py\5.3.0-cn\esptool.exe"
 if(-not $BuildDir){$BuildDir=Join-Path $projectDir 'build\mcwave'}
 $app=Join-Path $BuildDir 'WeatherClock.ino.bin';$boot=Join-Path $BuildDir 'WeatherClock.ino.bootloader.bin'
 $parts=Join-Path $BuildDir 'WeatherClock.ino.partitions.bin';$bootApp0=Join-Path $BuildDir 'boot_app0.bin'
