@@ -1,0 +1,64 @@
+{
+  "screen": {
+    "width": 91,
+    "height": 76.5,
+    "measured_thickness_range": [
+      0.95,
+      1
+    ],
+    "check_thickness": 1.2,
+    "active_width": 84.8,
+    "active_height": 63.6,
+    "active_left": 3.1,
+    "active_bottom": 10.3
+  },
+  "assembly": {
+    "length": 97,
+    "width": 34,
+    "height": 38,
+    "front_y": 22,
+    "foam_height": 3,
+    "side_clearance": 0.8,
+    "orientation": "d along X, parallel to a; e along Y"
+  },
+  "design": {
+    "tilt": 12,
+    "frame_border": 7,
+    "frame_thickness": 2.4,
+    "wall": 2.4,
+    "panel_back_thickness": 7,
+    "glass_seat_z": -2.8,
+    "glass_front_z": -0.6,
+    "glass_edge_clearance": 0.6,
+    "window_expansion": 0.4,
+    "panel_bottom_z": 6,
+    "bottom_cover_thickness": 3,
+    "cover_seam": 0.3,
+    "base_roof_z": 49.2,
+    "shoulder_z": 62,
+    "rear_reserve": 7.5
+  },
+  "charging": {
+    "width": 29,
+    "height_from_external_bottom": 14,
+    "face": "left",
+    "fore_aft_center": "assembly center"
+  },
+  "adapter_reserve": {
+    "width": 36,
+    "height_along_screen": 30,
+    "thickness": 4,
+    "panel_x": 34.5,
+    "panel_y": 22,
+    "panel_z": -13,
+    "orientation": "parallel to tilted panel behind screen; capacity reference only"
+  },
+  "notes": [
+    "V3: no independent rear adapter bay; adapter capacity placed in existing space behind screen.",
+    "a and d parallel along X; left-side charging opening retained at29 x14 mm.",
+    "Front clearance grows2mm for tilted adapter; rear reserve reduced19 to7.5mm for fasteners.",
+    "Unmeasured adapter capacity reference36 x30 x4mm, not actual measured dimensions. Trial fit required.",
+    "Screen thickness uncertain; conservative1.2mm reference and compliant edge pads.",
+    "Only STL printable exports requested."
+  ]
+}

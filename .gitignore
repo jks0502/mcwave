@@ -1,0 +1,12 @@
+Secrets.h
+CampusSecrets.h
+NjitSecrets.h
+MultiNetworkSecrets.h
+RemoteSecrets.h
+DeviceIdentity.h
+OtaSecrets.h
+build/
+*.bin
+*.elf
+*.log
+__pycache__/

@@ -1,0 +1,4 @@
+{
+  "mcwave": {"deviceId":"00000000-0000-0000-0000-00000000mcwave","chipId":0,"maximumSize":1835008,"profiles":["mcwave-hink-v1"]},
+  "edison": {"deviceId":"00000000-0000-0000-0000-000000edison","chipId":9,"maximumSize":3145728,"profiles":["edison-hink-s3-album-v1"]}
+}
